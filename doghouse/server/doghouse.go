@@ -28,7 +28,7 @@ const maxFilteredFinding = 150
 // > The Checks API limits the number of annotations to a maximum of 50 per API
 // > request.
 // https://developer.github.com/v3/checks/runs/#output-object
-const maxAnnotationsPerRequest = 50
+const maxAnnotationsPerRequest = 20
 
 type Checker struct {
 	req *doghouse.CheckRequest
