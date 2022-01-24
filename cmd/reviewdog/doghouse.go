@@ -13,15 +13,15 @@ import (
 	"golang.org/x/oauth2"
 	"golang.org/x/sync/errgroup"
 
-	"github.com/reviewdog/reviewdog"
-	"github.com/reviewdog/reviewdog/cienv"
-	"github.com/reviewdog/reviewdog/doghouse"
-	"github.com/reviewdog/reviewdog/doghouse/client"
-	"github.com/reviewdog/reviewdog/filter"
-	"github.com/reviewdog/reviewdog/project"
-	"github.com/reviewdog/reviewdog/proto/rdf"
-	"github.com/reviewdog/reviewdog/service/github/githubutils"
-	"github.com/reviewdog/reviewdog/service/serviceutil"
+	"github.com/TeamMonumenta/reviewdog"
+	"github.com/TeamMonumenta/reviewdog/cienv"
+	"github.com/TeamMonumenta/reviewdog/doghouse"
+	"github.com/TeamMonumenta/reviewdog/doghouse/client"
+	"github.com/TeamMonumenta/reviewdog/filter"
+	"github.com/TeamMonumenta/reviewdog/project"
+	"github.com/TeamMonumenta/reviewdog/proto/rdf"
+	"github.com/TeamMonumenta/reviewdog/service/github/githubutils"
+	"github.com/TeamMonumenta/reviewdog/service/serviceutil"
 )
 
 func runDoghouse(ctx context.Context, r io.Reader, w io.Writer, opt *option, isProject bool, forPr bool) error {

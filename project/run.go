@@ -12,10 +12,10 @@ import (
 
 	"golang.org/x/sync/errgroup"
 
-	"github.com/reviewdog/reviewdog"
-	"github.com/reviewdog/reviewdog/diff"
-	"github.com/reviewdog/reviewdog/filter"
-	"github.com/reviewdog/reviewdog/parser"
+	"github.com/TeamMonumenta/reviewdog"
+	"github.com/TeamMonumenta/reviewdog/diff"
+	"github.com/TeamMonumenta/reviewdog/filter"
+	"github.com/TeamMonumenta/reviewdog/parser"
 )
 
 // RunAndParse runs commands and parse results. Returns map of tool name to check results.

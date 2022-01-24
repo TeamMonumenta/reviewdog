@@ -10,7 +10,7 @@ jobs:
       - run:
           name: System information
           command: 'echo "Golang $(go version)"'
-      - run: 'curl -sfL https://raw.githubusercontent.com/reviewdog/reviewdog/master/install.sh| sh -s -- -b $(go env GOPATH)/bin'
+      - run: 'curl -sfL https://raw.githubusercontent.com/TeamMonumenta/reviewdog/master/install.sh| sh -s -- -b $(go env GOPATH)/bin'
       - run: '( cd linters && go get golang.org/x/lint/golint )'
       - run:
           command: |-

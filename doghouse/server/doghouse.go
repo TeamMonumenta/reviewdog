@@ -10,11 +10,11 @@ import (
 
 	"github.com/google/go-github/v39/github"
 
-	"github.com/reviewdog/reviewdog/diff"
-	"github.com/reviewdog/reviewdog/doghouse"
-	"github.com/reviewdog/reviewdog/filter"
-	"github.com/reviewdog/reviewdog/proto/rdf"
-	"github.com/reviewdog/reviewdog/service/github/githubutils"
+	"github.com/TeamMonumenta/reviewdog/diff"
+	"github.com/TeamMonumenta/reviewdog/doghouse"
+	"github.com/TeamMonumenta/reviewdog/filter"
+	"github.com/TeamMonumenta/reviewdog/proto/rdf"
+	"github.com/TeamMonumenta/reviewdog/service/github/githubutils"
 )
 
 // GitHub check runs API cannot handle too large requests.
@@ -196,7 +196,7 @@ func (ch *Checker) reqAnnotationLevel() string {
 
 func (ch *Checker) summary(checks []*filter.FilteredDiagnostic) string {
 	var lines []string
-	lines = append(lines, "reported by [reviewdog](https://github.com/reviewdog/reviewdog) :dog:")
+	lines = append(lines, "reported by [reviewdog](https://github.com/TeamMonumenta/reviewdog) :dog:")
 
 	var findings []*filter.FilteredDiagnostic
 	var filteredFindings []*filter.FilteredDiagnostic

@@ -6,8 +6,8 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/reviewdog/reviewdog/filter"
-	"github.com/reviewdog/reviewdog/proto/rdf"
+	"github.com/TeamMonumenta/reviewdog/filter"
+	"github.com/TeamMonumenta/reviewdog/proto/rdf"
 )
 
 func TestMultiCommentService_Post(t *testing.T) {

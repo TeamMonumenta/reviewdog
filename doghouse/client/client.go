@@ -11,8 +11,8 @@ import (
 	"net/url"
 	"os"
 
-	"github.com/reviewdog/reviewdog/commands"
-	"github.com/reviewdog/reviewdog/doghouse"
+	"github.com/TeamMonumenta/reviewdog/commands"
+	"github.com/TeamMonumenta/reviewdog/doghouse"
 )
 
 const baseEndpoint = "https://reviewdog.app"

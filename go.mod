@@ -1,4 +1,4 @@
-module github.com/reviewdog/reviewdog
+module github.com/TeamMonumenta/reviewdog
 
 go 1.17
 

@@ -10,12 +10,12 @@ import (
 
 	"github.com/google/go-github/v39/github"
 
-	"github.com/reviewdog/reviewdog"
-	"github.com/reviewdog/reviewdog/cienv"
-	"github.com/reviewdog/reviewdog/proto/rdf"
-	"github.com/reviewdog/reviewdog/service/commentutil"
-	"github.com/reviewdog/reviewdog/service/github/githubutils"
-	"github.com/reviewdog/reviewdog/service/serviceutil"
+	"github.com/TeamMonumenta/reviewdog"
+	"github.com/TeamMonumenta/reviewdog/cienv"
+	"github.com/TeamMonumenta/reviewdog/proto/rdf"
+	"github.com/TeamMonumenta/reviewdog/service/commentutil"
+	"github.com/TeamMonumenta/reviewdog/service/github/githubutils"
+	"github.com/TeamMonumenta/reviewdog/service/serviceutil"
 )
 
 var _ reviewdog.CommentService = &PullRequest{}

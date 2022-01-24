@@ -13,13 +13,13 @@ import (
 	"golang.org/x/oauth2"
 	"google.golang.org/protobuf/testing/protocmp"
 
-	"github.com/reviewdog/reviewdog"
-	"github.com/reviewdog/reviewdog/cienv"
-	"github.com/reviewdog/reviewdog/doghouse"
-	"github.com/reviewdog/reviewdog/doghouse/client"
-	"github.com/reviewdog/reviewdog/filter"
-	"github.com/reviewdog/reviewdog/project"
-	"github.com/reviewdog/reviewdog/proto/rdf"
+	"github.com/TeamMonumenta/reviewdog"
+	"github.com/TeamMonumenta/reviewdog/cienv"
+	"github.com/TeamMonumenta/reviewdog/doghouse"
+	"github.com/TeamMonumenta/reviewdog/doghouse/client"
+	"github.com/TeamMonumenta/reviewdog/filter"
+	"github.com/TeamMonumenta/reviewdog/project"
+	"github.com/TeamMonumenta/reviewdog/proto/rdf"
 )
 
 func setupEnvs(testEnvs map[string]string) (cleanup func()) {
